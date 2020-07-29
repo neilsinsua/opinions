@@ -3,29 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/_friendlists.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_tweetbox.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/481a0eb4-aeb1-4e82-afaa-2333f8a0f5b3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/481a0eb4-aeb1-4e82-afaa-2333f8a0f5b3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af8a1f5f-feea-4a2e-abdd-063bd176de08.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b40cf2af-8392-49b1-83af-3be06c3ecd9f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b40cf2af-8392-49b1-83af-3be06c3ecd9f/storage_v2/_src_/schema/laravel6.nexRpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b40cf2af-8392-49b1-83af-3be06c3ecd9f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b40cf2af-8392-49b1-83af-3be06c3ecd9f/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b40cf2af-8392-49b1-83af-3be06c3ecd9f/storage_v2/_src_/schema/mytodo.8r_fwA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +185,7 @@
       <workItem from="1595904009502" duration="9613000" />
       <workItem from="1595943159345" duration="9155000" />
       <workItem from="1595990928987" duration="3148000" />
-      <workItem from="1596004655231" duration="3994000" />
+      <workItem from="1596004655231" duration="4381000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit and Set Up">
       <created>1595906063254</created>
@@ -189,15 +194,46 @@
       <option name="project" value="LOCAL" />
       <updated>1595906063254</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make the timeline dynamic">
+      <created>1596010626001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596010626001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit and Set Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit and Set Up" />
+    <MESSAGE value="Make the timeline dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make the timeline dynamic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="53" key="#Plugins" timestamp="1595990937729">
@@ -213,10 +249,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1595990516403" />
-    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1595906062567">
+    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1596010625384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.-369.1920.1040@0.0.1536.824" timestamp="1595906062567" />
+    <state x="330" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596010625384" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1595991880987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -245,6 +282,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595993035710" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1596010627970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596010627970" />
     <state x="670" y="291" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1595904412831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,6 +294,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="647" y="300" width="307" height="260" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824/-1920.-369.1920.1040@0.0.1536.824" timestamp="1595904399469" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596010639987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596010639987" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596010231927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
