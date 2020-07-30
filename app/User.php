@@ -48,9 +48,20 @@ class User extends Authenticatable
         return "https://i.pravatar.cc/40?u=" . $this->email;
     }
 
-    public function follows()
+    public function follow(User $user)
     {
-        return $this->belongsToMany(User::class);
+        return $this->follows()->save($user);
+    }
+
+    public function follows()
+        //if table doesn't follow convention
+        // ? explicitly declare table name and foreign keys
+    {
+        return $this
+            ->belongsToMany(User::class,
+                'follows',
+                'user_id',
+                'follows_user_id');
     }
 }
 
