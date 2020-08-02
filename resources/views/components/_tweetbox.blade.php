@@ -21,15 +21,11 @@
 
         <div class="flex justify-between">
 
-            <img
-                src={{ auth()->user()->avatar }}
-                    alt="Avatar"
-                class="rounded-full mr-2"
-            >
+            @include('components._avatar', ['user' => auth()->user()])
 
             <button
                 type="submit"
-                class="bg-red-500 rounded-lg p-2 shadow text-white"
+                class="bg-red-500 rounded-lg px-4 shadow text-white hover:bg-red-100 hover:text-black"
             >Say Something
             </button>
 

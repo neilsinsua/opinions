@@ -4,12 +4,10 @@
 <ul>
     @foreach(auth()->user()->follows as $user)
         <li>
-            <div class="flex items-center justify-center text-sm my-4">
-                <img
-                    src={{ $user->avatar }}
-                    alt="Avatar"
-                    class="rounded-full mr-2"
-                >
+            <div class="flex items-center justify-start text-sm my-4 px-4">
+                <a href="profile/{{ $user->id }}">
+                    @include('components._avatar', ['user' => $user])
+                </a>
                 {{ $user->name }}
             </div>
         </li>

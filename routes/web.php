@@ -13,11 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Welcome
 Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/logout', function () {
+    Auth::logout();
+    redirect(\route('home'));
+})->name('logout');
+
+//Assets
+Route::get('/images/logo.svg')->name('logo');//Logo
+Route::get('/images/profile_banner.jpg')->name('banner');//Banner
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/tweets', 'TweetController@store')->name('tweets');
+Route::middleware('auth')->group( function() {
+    Route::get('/tweets', 'TweetController@index')->name('home');
+    Route::post('/tweets', 'TweetController@store')->name('tweets');
+    Route::post('/profile/{user:tag}/follow', 'FollowController@store');
+});
+
+//Tweets
+
+
+//Profiles
+Route::get('/profile/{user:tag}', 'ProfileController@show')->name('profile');
+

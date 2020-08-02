@@ -19,18 +19,17 @@
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
-<body class="bg-red-100 font-sans">
+<body class="bg-gray-100">
+
     <section class="px-8 py-4">
         <header class="container mx-auto">
-            <img src="images/logo.svg" alt="Logo">
+            <a href="{{ route('home') }}">
+                <img src="{{ route('logo') }}">
+            </a>
         </header>
     </section>
 
-    <section class="px-8">
-        <main class="container mx-auto">
-            @yield('content')
-        </main>
-    </section>
+    {{ $slot }}
 
 </body>
 </html>

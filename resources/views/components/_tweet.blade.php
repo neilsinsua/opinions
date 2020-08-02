@@ -1,10 +1,8 @@
 <div class="flex mb-3 border-b border-b-gray-300 py-3">
     <div class="mr-4">
-        <img
-            src={{ auth()->user()->avatar }}
-            alt="Avatar"
-            class="rounded-full mr-2"
-        >
+
+        @include('components._avatar', ['user' => $tweet->user])
+
     </div>
 
     <div class="flex-1">
