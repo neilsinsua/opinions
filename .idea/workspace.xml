@@ -23,47 +23,17 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:amster" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/TweetPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_30_165908_add_tag_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/profile_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/_avatar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/_profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/edit-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_friendlists.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_friendlists.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_timeline.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_tweet.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweetbox.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/_tweetbox.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/edit-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/edit-button.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="30236e3e-d932-4254-af19-07bda824651c" name="Revert &quot;testing&quot;" comment="">
@@ -81,23 +51,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="e3ff9d1b40c93c22641f924cadcea58a32c8d2ef" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/app/User.php">
-      <ranges>
-        <range start1="10" end1="11" start2="10" end2="11" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="38" end1="44" start2="38" end2="38" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="47" end1="48" start2="41" end2="42" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="50" end1="51" start2="44" end2="63" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="52" end1="53" start2="64" end2="65" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="54" end1="65" start2="66" end2="66" changelist="36a2a525-a681-4a5d-b4d9-bde1a2ca036b" />
-        <range start1="67" end1="69" start2="68" end2="68" changelist="30236e3e-d932-4254-af19-07bda824651c" />
-      </ranges>
-    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -255,7 +212,7 @@
       <workItem from="1596076106300" duration="21082000" />
       <workItem from="1596250122535" duration="764000" />
       <workItem from="1596250932221" duration="2837000" />
-      <workItem from="1596333901971" duration="10047000" />
+      <workItem from="1596333901971" duration="12031000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit and Set Up">
       <created>1595906063254</created>
@@ -278,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596078703449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Built the follow form">
+      <created>1596344149796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596344149796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +259,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="amster" />
                       </list>
                     </value>
                   </entry>
@@ -313,7 +277,8 @@
     <MESSAGE value="Initial Commit and Set Up" />
     <MESSAGE value="Revert &quot;testing&quot;&#10;&#10;This reverts commit 3f399967" />
     <MESSAGE value="Following logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Following logic" />
+    <MESSAGE value="Built the follow form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Built the follow form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="60" y="0" key="#Live_Templates" timestamp="1596076515836">
@@ -353,11 +318,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="80" key="#com.jetbrains.php.refactoring.pullPush.pushDown.PhpPushDownDialog#/0.0.1536.824@0.0.1536.824" timestamp="1596336820999" />
-    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1596078702836">
+    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1596344148775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.-369.1920.1040@0.0.1536.824" timestamp="1595906062567" />
-    <state x="330" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596078702836" />
+    <state x="330" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596344148775" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1595991880987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -398,10 +363,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="320" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1596011387671" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1596078713010">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1596344179431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596078713010" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596344179431" />
     <state x="670" y="291" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1595904412831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -410,10 +375,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="647" y="300" width="307" height="260" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824/-1920.-369.1920.1040@0.0.1536.824" timestamp="1595904399469" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596341274556">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596344826461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.-369.1920.1040@0.0.1536.824" timestamp="1595904958089" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596341274556" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596344826461" />
   </component>
 </project>

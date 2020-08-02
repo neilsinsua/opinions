@@ -13,4 +13,9 @@ class ProfileController extends Controller
         $tweets = Tweet::where('user_id', $user->id )->get();
         return view('profiles.show', compact(['user', 'tweets']));
     }
+
+    public function edit(User $user)
+    {
+        return view('profiles.edit', compact('user'));
+    }
 }

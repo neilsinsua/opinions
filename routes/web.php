@@ -29,13 +29,16 @@ Route::get('/images/profile_banner.jpg')->name('banner');//Banner
 
 Auth::routes();
 
+//Authenticate
 Route::middleware('auth')->group( function() {
+    //Tweets
     Route::get('/tweets', 'TweetController@index')->name('home');
     Route::post('/tweets', 'TweetController@store')->name('tweets');
+    //Profiles
     Route::post('/profile/{user:tag}/follow', 'FollowController@store');
+    Route::get('profile/{user:tag}/edit', 'ProfileController@edit')->middleware('can:edit,user');
 });
 
-//Tweets
 
 
 //Profiles
